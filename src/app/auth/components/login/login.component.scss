@@ -1,0 +1,9 @@
+.form {
+    min-width: 300px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    .form-field {
+        margin-bottom: 1rem;
+    }
+}

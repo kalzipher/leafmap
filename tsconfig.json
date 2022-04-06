@@ -21,7 +21,12 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@services/*": ["src/app/services/*"],
+      "@auth/*": ["src/app/auth/*"],
+      "@home/*": ["src/app/home/*"],
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
